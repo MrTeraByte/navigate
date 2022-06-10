@@ -1,0 +1,51 @@
+@font-face {
+  font-family: simplerounded;
+  src: url(fonts/Varela_round/VarelaRound-Regular.ttf);
+}
+body  {
+	color:white;
+	background: #3494E6;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-family: simplerounded;
+}
+.container {
+	width: 70%;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	position:fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 0 0 5px white;
+}
+div {
+	border: 1px ;
+}
+.Title {
+	font-size: 26px;
+}
+.Title i{
+	float: right;
+	font-size: 15px;
+	padding: 10px;
+}
+.Title p{
+	display:inline;
+	border-bottom: 0.1px solid white;
+}
+.destinations {
+	padding: 5px 0 5px 0;
+}
+.links a{
+	color:white;
+	transition: 255ms;
+}
+.destinations{
+	padding: 5px 0 5px 0;
+	transition: 255ms;
+}
+.destinations:hover{
+	text-shadow: 0 0 5px white;
+}
